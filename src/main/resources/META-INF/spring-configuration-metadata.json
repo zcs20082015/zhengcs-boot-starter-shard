@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "zhengcs.shard",
+      "type": "com.zhengcs.boot.starter.shard.ShardingJdbcAutoConfiguration",
+      "sourceType": "com.zhengcs.boot.starter.shard.ShardingJdbcAutoConfiguration"
+    },
+    {
+      "name": "zhengcs.shard.path",
+      "type": "com.zhengcs.boot.starter.shard.ShardingJdbcAutoConfiguration",
+      "sourceType": "com.zhengcs.boot.starter.shard.ShardingJdbcAutoConfiguration"
+    },
+    {
+      "name": "zhengcs.shard.path.mapper",
+      "type": "com.zhengcs.boot.starter.shard.ShardingJdbcAutoConfiguration",
+      "sourceType": "com.zhengcs.boot.starter.shard.ShardingJdbcAutoConfiguration"
+    },
+    {
+      "name": "zhengcs.shard.path.mybatis",
+      "type": "com.zhengcs.boot.starter.shard.ShardingJdbcAutoConfiguration",
+      "sourceType": "com.zhengcs.boot.starter.shard.ShardingJdbcAutoConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "zhengcs.shard.open",
+      "type": "java.lang.Boolean",
+      "default": true,
+      "sourceType": "com.zhengcs.boot.starter.shard.ShardingJdbcAutoConfiguration"
+    },
+    {
+      "name": "zhengcs.shard.path.mapper.scan",
+      "type": "java.lang.String",
+      "sourceType": "com.zhengcs.boot.starter.shard.ShardingJdbcAutoConfiguration"
+    },
+    {
+      "name": "zhengcs.shard.path.mapper.xml",
+      "type": "java.lang.String",
+      "sourceType": "com.zhengcs.boot.starter.shard.ShardingJdbcAutoConfiguration"
+    },
+    {
+      "name": "zhengcs.shard.path.mybatis.config",
+      "type": "java.lang.String",
+      "sourceType": "com.zhengcs.boot.starter.shard.ShardingJdbcAutoConfiguration"
+    }
+  ]
+}
